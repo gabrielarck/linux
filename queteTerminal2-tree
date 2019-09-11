@@ -1,0 +1,20 @@
+gabrielarck@vega-pc:~/quetes/shell/planets$ tree
+.
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   ├── earth.jpeg
+│   └── mars.jpeg
+├── neptune.jpeg
+├── real
+│   ├── gas-giants
+│   └── telluric
+│       ├── earth.jpeg
+│       ├── mars.jpeg
+│       ├── mercury.jpeg
+│       └── venus.jpeg
+└── uranus.jpeg
