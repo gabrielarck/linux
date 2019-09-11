@@ -1,109 +1,22 @@
-sudo apt-get install -y tree wget unzip
-   88  ~/quetes/shell
-   89  ls
-   90  cd quetes/shell
-   91  ls
-   92  wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
-   93  unzip planets.zip
-   94  eog planets
-   95  ls
-   96  cd planets
-   97  mkdir -p real fictional inhabited
-   98  ls
-   99  mkdir -p telluric gas-giants dwarf-planets /planets/inhabited
-  100  cd /..
-  101  ls
-  102  cd real
-  103  cd quete
-  104  cd~
-  105  cd ~
-  106  ls
-  107  cd quetes
-  108  ls
-  109  cd shell ; ls
-  110  cd planets ; ls
-  111  cd real ; ls
-  112  mkdir -p telluric gas-giants dwarf-planets ; ls
-  113  ls
-  114  cd ..
-  115  ls
-  116  eog pluto
-  117  eog planets
-  118  ls
-  119  mv jupiter.jpeg/real
-  120  mv real/jupiter.jpeg real/saturn.jpeg
-  121  mv real/jupiter
-  122  mv jupiter/real
-  123  mv -- help
-  124  mvhelp
-  125  mv --help
-  126  ls
-  127  mv jupiter.jpeg ~/gas-giants
-  128  mv saturn.jpeg ~/gas-giants
-  129  ls
-  130  mv venus.jpeg mars.jpeg earth.jpeg mercury.jpeg ~/telluric
-  131  mv venus.jpeg mars.jpeg earth.jpeg mercury.jpeg telluric/
-  132  ls
-  133  cd telluric
-  134  ls
-  135  cd ..
-  136  ls
-  137  mv pluto.jpeg dwarf-planets/
-  138  ls
-  139  mv coruscant.jpeg cybertron.jpeg arrakis.jpeg fictional/
-  140  ls
-  141  dwarf-planets gas-giants telluric real/
-  142  mv dwarf-planets gas-giants telluric real/
-  143  ls
-  144  cd real
-  145  ls
-  146  cd telluric ; ls
-  147  cd ../..
-  148  ls
-  149  cd fictional ; ls
-  150  cp arrakis.jpeg coruscant.jpeg mars.jpeg 
-  151  ls
-  152  arrakis.jpeg coruscant.jpeg ; mv arrakis.jpeg coruscand.jpeg inhabited/
-  153  cd planets
-  154  cd ..
-  155  ls
-  156  cd fictional
-  157  ls
-  158  cp arrakis.jpeg inhabited
-  159  ls
-  160  cp arrakis.jpeg inhabited/
-  161  cp arrakis arrakis1 ; ls
-  162  cp arrakis.jpeg inhabited. ; ls
-  163  rm inhabited.
-  164  rm inhabited
-  165  ls
-  166  arrakis.jpeg arrakis.jpeg
-  167  cp arrakis.jpeg arrakis.jpeg
-  168  cp arrakis.jpeg arrakis.jpeg inhabited
-  169  ls
-  170* 
-  171  cp arrakis.jpeg arrakis.jpeg inhabited
-  172  cd /..
-  173  cd planets/fictional
-  174  cd planets
-  175  pwd
-  176  cd quetes
-  177  cd ~
-  178  pwd
-  179  ls
-  180  cd quetes/shell
-  181  ls
-  182  cd planets
-  183  cp /fictional/arrakis.jpeg /inhabited/arrakis.jpeg
-  184  cp /fictional/arrakis.jpeg/inhabited/arrakis.jpeg
-  185  cp fictional/arrakis.jpeg inhabited/arrakis.jpeg
-  186  ls
-  187  cp fictional/coruscant.jpeg inhabited/coruscant.jpeg
-  188  cp telluric/earth.jpeg mars.jpeg inhabited/earth.jpeg mars.jpeg
-  189  cp telluric/earth.jpeg inhabited/earth.jpeg
-  190  cp real/telluric/earth.jpeg inhabited/earth.jpeg
-  191  cp real/telluric/mars.jpeg inhabited/mars.jpeg
-  192  rm -r dwarf-planets
-  193  cd real
-  194  rm -r dwarf-planets
-  195  history
+cd ..
+  197  cd .. ; cd ..
+  198  cd shell ; ls
+  199  mkdir dossier
+  200  unzip planets.zip
+  201  ls
+  202  mv gas-giants/jupiter.jpeg
+  203  mv planets/jupiter.jpeg gas-giants/jupiter.jpeg
+  204  mv planets/jupiter.jpeg real/gas-giants/jupiter.jpeg
+  205  cp planets/jupiter.jpeg real/gas-giants/jupiter.jpeg
+  206  cd planets
+  207  mv planets/jupiter.jpeg real/gas-giants/jupiter.jpeg
+  208  cp planets/jupiter.jpeg real/gas-giants/jupiter.jpeg
+  209  ls
+  210  mv jupiter.jpeg real/gas-giants
+  211  mv saturn.jpeg real/gas-giants
+  212  ls
+  213  rm mercury.jpeg
+  214  rm venus.jpeg earth.jpeg mars.jpeg
+  215  rm pluto.jpeg
+  216  rm arrakis.jpeg coruscant.jpeg cybertron.jpeg 
+  217  history
