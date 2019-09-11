@@ -1,20 +1,34 @@
-gabrielarck@vega-pc:~/quetes/shell/planets$ tree
+gabrielarck@vega-pc:~/quetes/shell$ tree
 .
-├── fictional
-│   ├── arrakis.jpeg
-│   ├── coruscant.jpeg
-│   └── cybertron.jpeg
-├── inhabited
-│   ├── arrakis.jpeg
-│   ├── coruscant.jpeg
-│   ├── earth.jpeg
-│   └── mars.jpeg
-├── neptune.jpeg
-├── real
-│   ├── gas-giants
-│   └── telluric
-│       ├── earth.jpeg
-│       ├── mars.jpeg
-│       ├── mercury.jpeg
-│       └── venus.jpeg
-└── uranus.jpeg
+├── dossier
+├── fruits
+│   ├── banane
+│   ├── kiwi
+│   ├── pamplemousse
+│   ├── poire
+│   └── pomme
+├── legumes
+│   ├── carotte
+│   ├── chou-fleur
+│   └── chou-rave
+├── planets
+│   ├── fictional
+│   │   ├── arrakis.jpeg
+│   │   ├── coruscant.jpeg
+│   │   └── cybertron.jpeg
+│   ├── inhabited
+│   │   ├── arrakis.jpeg
+│   │   ├── coruscant.jpeg
+│   │   ├── earth.jpeg
+│   │   └── mars.jpeg
+│   ├── neptune.jpeg
+│   ├── real
+│   │   ├── gas-giants
+│   │   │   ├── jupiter.jpeg
+│   │   │   └── saturn.jpeg
+│   │   └── telluric
+│   │       ├── earth.jpeg
+│   │       ├── mars.jpeg
+│   │       ├── mercury.jpeg
+│   │       └── venus.jpeg
+│   └── uranus.jpeg
