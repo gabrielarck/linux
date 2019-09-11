@@ -1,0 +1,96 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+gabrielarck@DESKTOP-4T4Q3J5:~$ bash
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+gabrielarck@DESKTOP-4T4Q3J5:~$ ls
+gabrielarck@DESKTOP-4T4Q3J5:~$ sudo bash
+[sudo] password for gabrielarck:
+root@DESKTOP-4T4Q3J5:~# ls
+root@DESKTOP-4T4Q3J5:~# pwd
+/home/gabrielarck
+root@DESKTOP-4T4Q3J5:~# cd..
+cd..: command not found
+root@DESKTOP-4T4Q3J5:~# cd ..
+root@DESKTOP-4T4Q3J5:/home# ls
+gabrielarck
+root@DESKTOP-4T4Q3J5:/home# cd..
+cd..: command not found
+root@DESKTOP-4T4Q3J5:/home# cd ..
+root@DESKTOP-4T4Q3J5:/# ls
+bin   dev  home  lib    media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib64  mnt    proc  run   snap  sys  usr
+root@DESKTOP-4T4Q3J5:/# ls .
+bin   dev  home  lib    media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib64  mnt    proc  run   snap  sys  usr
+root@DESKTOP-4T4Q3J5:/# ls -a
+.   bin   dev  home  lib    media  opt   root  sbin  srv  tmp  var
+..  boot  etc  init  lib64  mnt    proc  run   snap  sys  usr
+root@DESKTOP-4T4Q3J5:/# ls Images
+ls: cannot access 'Images': No such file or directory
+root@DESKTOP-4T4Q3J5:/# ls./Images
+bash: ls./Images: No such file or directory
+root@DESKTOP-4T4Q3J5:/# ls /home/gabrielarck
+root@DESKTOP-4T4Q3J5:/# ls
+bin   dev  home  lib    media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib64  mnt    proc  run   snap  sys  usr
+root@DESKTOP-4T4Q3J5:/# cd gabrielarck
+bash: cd: gabrielarck: No such file or directory
+root@DESKTOP-4T4Q3J5:/# cd home
+root@DESKTOP-4T4Q3J5:/home# pwd
+/home
+root@DESKTOP-4T4Q3J5:/home# ls
+gabrielarck
+root@DESKTOP-4T4Q3J5:/home# cd ..
+root@DESKTOP-4T4Q3J5:/# ls
+bin   dev  home  lib    media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib64  mnt    proc  run   snap  sys  usr
+root@DESKTOP-4T4Q3J5:/# cd Images
+bash: cd: Images: No such file or directory
+root@DESKTOP-4T4Q3J5:/# cd media
+root@DESKTOP-4T4Q3J5:/media# pwd
+/media
+root@DESKTOP-4T4Q3J5:/media# cd Musique
+bash: cd: Musique: No such file or directory
+root@DESKTOP-4T4Q3J5:/media# cd user
+bash: cd: user: No such file or directory
+root@DESKTOP-4T4Q3J5:/media# pwd
+/media
+root@DESKTOP-4T4Q3J5:/media# cd usr
+bash: cd: usr: No such file or directory
+root@DESKTOP-4T4Q3J5:/media# cd ..
+root@DESKTOP-4T4Q3J5:/# cd ..
+root@DESKTOP-4T4Q3J5:/# pwd
+/
+root@DESKTOP-4T4Q3J5:/# cd usr
+root@DESKTOP-4T4Q3J5:/usr# pwd
+/usr
+root@DESKTOP-4T4Q3J5:/usr# ls
+bin  games  include  lib  local  sbin  share  src
+root@DESKTOP-4T4Q3J5:/usr# cd local
+root@DESKTOP-4T4Q3J5:/usr/local# ls
+bin  etc  games  include  lib  man  sbin  share  src
+root@DESKTOP-4T4Q3J5:/usr/local# cd home
+bash: cd: home: No such file or directory
+root@DESKTOP-4T4Q3J5:/usr/local# cd /home
+root@DESKTOP-4T4Q3J5:/home# ls
+gabrielarck
+root@DESKTOP-4T4Q3J5:/home# cd /Musique
+bash: cd: /Musique: No such file or directory
+root@DESKTOP-4T4Q3J5:/home# cd /Music
+bash: cd: /Music: No such file or directory
+root@DESKTOP-4T4Q3J5:/home# cd Music
+bash: cd: Music: No such file or directory
+root@DESKTOP-4T4Q3J5:/home# cd gabrielarck
+root@DESKTOP-4T4Q3J5:~# ls
+root@DESKTOP-4T4Q3J5:~# pwd
+/home/gabrielarck
+root@DESKTOP-4T4Q3J5:~# ls
+root@DESKTOP-4T4Q3J5:~# ls ..
+gabrielarck
+root@DESKTOP-4T4Q3J5:~# ls ../..
+bin   dev  home  lib    media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib64  mnt    proc  run   snap  sys  usr
+root@DESKTOP-4T4Q3J5:~#
